@@ -36,4 +36,8 @@ public class NoDuplo<T> {
                 "conteudo=" + conteudo +
                 '}';
     }
+
+    public NoDuplo(T conteudo) {
+        this.conteudo = conteudo;
+    }
 }
